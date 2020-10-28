@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+<title>Water Level</title>
+
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+<style>
+#example1 {
+  border: 5px solid Crimson;
+  padding: 0.5px;
+  background:class="container-fluid";
+  background-clip: border-box;  
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+  <h1 style="color:DodgerBlue;">Water Level Monitoring</h1>
+    
+       <div id="example1">
+        <h1 style="color:Orange";> {{ Level }} </h1>
+        <p style="color:Tomato";>Water Level in Percentage</p>
+       </div> 
+    
+  
+         
+</div>
+
+</body>
+</html>
+
+
